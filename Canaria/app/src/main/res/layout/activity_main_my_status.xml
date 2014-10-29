@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+        android:id="@+id/first_segment"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="8월 29일 금요일"
+            android:gravity="center"
+            android:id="@+id/todayDate"
+            android:textSize="22dp"
+            android:layout_margin="5dp"
+            android:textColor="#808080"
+            android:layout_gravity="center_horizontal" />
+        <RelativeLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF">
+            <ImageView android:id="@+id/myImageView"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_centerInParent="true"
+                android:padding="30dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/profile_pic1"/>
+            <ImageView
+                android:id="@+id/activity_graph"
+                android:layout_height="280dp"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:src="@drawable/graph20"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="0.0km     0보"
+            android:gravity="center"
+            android:id="@+id/todayStatus"
+            android:textSize="30dp"
+            android:layout_margin="8dp"
+            android:background="@color/Tcolor"
+            android:textColor="#FFFFFF"
+
+            android:layout_gravity="center_horizontal" />
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@color/Bcolor">
+
+            <LinearLayout
+                android:id="@+id/container0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:orientation="vertical">
+            </LinearLayout>
+            <TextView
+                android:id="@+id/connection_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="left"
+                android:padding="10dp"
+                android:textColor="#FFFFFF"
+                android:text="No Sensors Connected"/>
+            <TextView
+
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/Tcolor2"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/label_text"
+                android:padding="10dp"
+                android:text="하루의 일과" />
+
+            </LinearLayout>
+
+    </LinearLayout>
+        <FrameLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/first_segment"
+            android:id="@+id/second_segment">
+            <LinearLayout
+                android:id="@+id/line"
+                android:layout_width="4dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:background="@color/text_fade_color"
+                android:orientation="horizontal"/>
+            <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:id="@+id/container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/frag_container1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_below="@id/container"
+                        android:orientation="vertical">
+                    </LinearLayout>
+
+            </RelativeLayout>
+
+        </FrameLayout>
+        <LinearLayout
+                android:id="@+id/frag_container2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:orientation="vertical"
+                android:layout_below="@id/second_segment">
+        </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
+<ImageView
+android:id="@+id/contact_button"
+android:layout_width="80dp"
+android:layout_height="80dp"
+android:layout_alignParentBottom="true"
+android:layout_alignParentEnd="true"
+android:layout_marginBottom="20dp"
+android:layout_marginRight="20dp"
+android:src="@drawable/quick_record"/>
+</RelativeLayout>

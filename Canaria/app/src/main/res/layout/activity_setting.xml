@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/setting_layout"
+    android:background="@color/bg_color"
+    tools:context=".SettingActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:src="@drawable/record"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="설정"
+            android:textColor="@color/text_fade_color"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="2dp"
+        android:gravity="center"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/text_fade_color"
+        android:layout_margin="2dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/setting_button0"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        android:gravity="center"
+        android:text="Change Profile"
+        android:textColor="@color/main_color"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="@color/button"/>
+    <TextView
+        android:id="@+id/setting_button1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        android:gravity="center"
+        android:text="Manage Friends"
+        android:textColor="@color/main_color"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="@color/button"/>
+
+    <TextView
+        android:id="@+id/setting_button2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        android:gravity="center"
+        android:text="Change Device Setting"
+        android:textColor="@color/main_color"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="@color/button"/>
+    <TextView
+        android:id="@+id/setting_button3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        android:gravity="center"
+        android:text="Log In"
+        android:textColor="@color/main_color"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="@color/button"/>
+    <TextView
+        android:id="@+id/setting_button4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        android:gravity="center"
+        android:text="Log Out"
+        android:textColor="@color/main_color"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="@color/button"/>
+    <TextView
+        android:id="@+id/setting_button5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textColor="@color/main_color"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="@color/button"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_margin="2dp"
+        android:gravity="center"/>
+
+
+</LinearLayout>

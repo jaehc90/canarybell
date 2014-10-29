@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_background">
+
+    <FrameLayout android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:src="@drawable/home"/>
+    <TextView
+        android:id="@+id/me"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="100dp"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/newsfeed"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"/>
+        <TextView
+            android:id="@+id/aim"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:id="@+id/setting"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:id="@+id/friend"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"/>
+    </FrameLayout>
+</LinearLayout>

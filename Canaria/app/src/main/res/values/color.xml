@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="list_item_title">#fff</color>
+        <color name="list_background">#303030</color>
+        <color name="list_background_pressed">#992416</color>
+        <color name="list_divider">#D3D3D3</color>
+        <color name="counter_text_bg">#626262</color>
+        <color name="counter_text_color">#c5c4c4</color>
+
+        <color name="main_color">#ED4A03</color>
+        <color name="bar_color">#ED4A03</color>
+        <color name="bg_color">#393939</color>
+        <color name="list_bg_color">#D3D3D3</color>
+        <color name="tab_color">#D3D3D3</color>
+        <color name="title_color">#D3D3D3</color>
+        <color name="comment_bg_color1">#FFFFFF</color>
+        <color name="comment_bg_color2">#ECEBEB</color>
+        <color name="comment_txt_color1">#393939</color>
+        <color name="comment_txt_color2">#686868</color>
+        <color name="text_color_normal">#FFFFFF</color>
+        <color name="text_color_hl">#FFFFFF</color>
+        <color name="text_color_alert">#ED4A03</color>
+        <color name="text_title_color">#393939</color>
+        <color name="text_fade_color">#D3D3D3</color>
+        <color name="text_location">#686868</color>
+        <color name="text_body">#393939</color>
+        <color name="menu_title_color">#626262</color>
+        <color name="menu_counter_color">#D3D3D3</color>
+        <color name="quick_record_button">#686868</color>
+        <color name="button">#585858</color>
+
+    <color name="Mcolor">#529FD5</color>
+    <color name="Mcolor2">#F0CF5E</color>
+    <color name="Mcolor3">#FF8D27</color>
+    <color name="Mcolor4">#434142</color>
+
+    <color name="Bcolor">#F7F7F7</color>
+    <color name="Bcolor2">#EDEDEF</color>
+
+    <color name="Tcolor">#808080</color>
+    <color name="Tcolor2">#5991B6</color>
+    <color name="Tcolor3">#000000</color>
+    <color name="Tcolor4">#d1e0ec</color>
+    <color name="Tcolor5">#6daad7</color>
+
+    <color name="screen_background">#282828</color>
+    <color name="display_background">#000</color>
+
+</resources>

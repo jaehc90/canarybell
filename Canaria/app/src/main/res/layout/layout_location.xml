@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFFFF">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <ImageView
+    android:id="@+id/location_icon"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="@dimen/activity_horizontal_margin"
+    android:layout_marginLeft ="@dimen/activity_horizontal_margin"
+    android:background="@color/bar_color"
+    android:src="@drawable/preview_pic"/>
+    <TextView
+        android:id="@+id/label_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_alignTop="@id/location_icon"
+        android:layout_toRightOf="@id/location_icon"
+        android:text="서울시 마포구 근처"
+        android:textSize="20dp"
+        android:textColor="@color/text_location"/>
+    <TextView
+        android:id="@+id/status_list_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_alignLeft="@id/label_location"
+        android:layout_below="@id/label_location"
+        android:text="쌈디]사람들은 모두 변하나봐 그래 나도 변했으니까
+모두 변해가는 모습에 나도 따라 변하겠지
+
+길]사람들은 모두 변하나봐 그래 너도 변했으니까
+너의 변해가는 모습에 나도 따라 변한거야"
+        android:textSize="18dp"
+        android:textColor="@color/text_location"
+        android:visibility="visible"/>
+</RelativeLayout>
+
+
+</LinearLayout>

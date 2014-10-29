@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/picture_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft ="@dimen/activity_horizontal_margin"
+            android:background="@color/bar_color"
+            android:src="@drawable/preview_pic"/>
+        <TextView
+            android:id="@+id/label_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_alignTop="@id/picture_icon"
+            android:layout_toRightOf="@id/picture_icon"
+            android:text="서울시 마포구 근처"
+            android:textSize="20dp"
+            android:textColor="@color/text_location"/>
+        <ImageView
+            android:id="@+id/status_list_item_img"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="5dp"
+            android:layout_alignLeft="@id/label_picture"
+            android:gravity="fill_horizontal"
+            android:scaleType="fitStart"
+            android:layout_below="@id/picture_icon"
+            android:text="오늘 재미있게 보냈다 오늘 재미있게 보냈다 오늘 재미있게 보냈다 오늘 재미있게 보냈다 오늘 재미있게 보냈다"
+            android:textSize="20dp"
+            android:textColor="@color/text_body"
+            android:src="@drawable/sample_pic_vertical"/>
+    </RelativeLayout>
+</LinearLayout>

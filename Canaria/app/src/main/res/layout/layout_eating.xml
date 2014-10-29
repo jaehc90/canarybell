@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:id="@+id/eating_layout"
+        android:layout_height="75dp"
+        android:layout_width="match_parent"
+        android:weightSum="10"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp"
+        android:background="#FFFFFF">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:layout_weight="2"
+            android:layout_margin="2dp"
+            android:src="@drawable/eating_ref"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:text="정상적인 식사 활동을 하셨습니다"
+            android:gravity="center_vertical"
+            android:layout_weight="6.5"
+            android:textSize="20dp"
+            android:layout_margin="2dp"
+            android:textColor="@color/Tcolor2"/>
+        <TextView
+            android:id="@+id/eating_level"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="80%"
+            android:gravity="center"
+            android:layout_weight="1.5"
+            android:textSize="20dp"
+            android:layout_margin="2dp"
+            android:textColor="@color/Tcolor2" />
+    </LinearLayout>
+
+</LinearLayout>
